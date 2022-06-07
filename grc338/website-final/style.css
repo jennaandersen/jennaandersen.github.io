@@ -1,0 +1,146 @@
+/*CSS DOCUMENT*/
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;}
+
+img {
+    width: 100%; 
+    display: block;
+    padding-bottom: 0.7rem;
+}
+body{
+    background-color: #fafafe;
+}
+
+div.container{
+    max-width: 60em;
+    margin:auto;
+}
+
+
+p {
+    background-color: #fafafe;
+    font-family: interstate,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0rem 1rem 0.5rem;
+    font-size: 1rem;
+    line-height: 1.3rem;
+    max-width: 60em;  
+}
+
+figcaption{
+    background-color: #fafafe;
+    font-family: interstate,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0rem 0rem 0.5rem 0rem;
+    font-size: 0.9rem;
+    max-width: 60em;
+}
+
+h1{
+    background-color: #c7a385; 
+    padding: 0.3rem 1rem;
+}
+
+h1 a img{
+    width: 20rem;
+}
+
+
+
+h2{
+    font-family: interstate,sans-serif;
+    font-weight: 510;
+    font-style: normal;
+    text-transform: uppercase;
+    padding: 1rem;
+    font-size: 2rem;
+    color: #97baa0;
+}
+
+h3{
+    color:#dec59a;
+    font-family: interstate,sans-serif;
+    font-weight: 510;
+    font-style: normal;
+    text-decoration: underline;
+    text-transform: uppercase;
+    padding: 1rem;
+    font-size: 1.8rem;
+}
+
+h4{
+    font-family: interstate,sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 1em;
+    margin: 1rem 0rem 0.3rem;
+}
+
+footer{
+    background-color: #c7a385;
+    color: #ffffff;
+    font-family: interstate,sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 1.3em;
+    padding: 0.7rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+
+nav ul{
+    margin: 1rem 1rem 1rem 0rem;
+}
+
+nav ul li{
+    margin: 1rem;
+    display: inline;
+    list-style-type: none;
+    font-family: interstate,sans-serif;
+    font-weight: 600;
+    font-size: 1.3rem;
+    font-style: normal;
+    text-transform: uppercase;
+    
+}
+
+nav ul li a{
+    color:#000000;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color:#cccccc;
+}
+
+
+ul li h4{
+    padding-left: 1rem;
+    line-height: 0.4rem;
+}
+
+ul{
+    list-style-type: none;
+}
+
+p a{
+    text-decoration: none;
+    color: #000000;
+}
+
+
+@media only screen and (min-width:60em){
+    
+
+    
+    ul.rings,ul.necklaces,ul.earings,ul.cont{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    
+    }
+    
+}
+
+/*Please don’t change this CSS stylesheet for the content hierarchy assginment */
