@@ -1,0 +1,84 @@
+/*CSS document*/
+
+body {
+    background-color: #ffffff;
+    font-family: retiro-std-24pt,sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+}
+h1{
+    color: #000000;
+    font-size: 2em;
+    font-family: lust,serif;
+    font-weight: 700;
+    font-style: normal;
+}
+h2{
+    color: #7f7c78;
+    font-family: lust-didone-fine,sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+h3{
+    color: #000000;
+    font-family: lust-didone-fine,sans-serif;
+    font-size: 1.5em;
+    font-weight: 100;
+    font-style: normal;
+    padding-top: 1.5em;
+    
+}
+
+p, figcaption{
+    color: #000000;
+    font-family: freight-sans-pro,sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    
+}
+div.container {
+    max-width: 40em;
+    margin: auto;
+    text-decoration: none;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+figure {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #AC998A;
+    padding: .5em;
+}
+
+nav ul li{
+    display: inline;
+    color: #000000;
+    font-family: freight-sans-pro,sans-serif;
+    font-weight: 400;
+    font-size: 1.3em;
+    font-style: normal;
+    text-decoration: none;
+    margin: 1em;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #000000;
+}
