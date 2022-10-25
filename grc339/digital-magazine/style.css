@@ -1,11 +1,7 @@
 /*CSS document*/
 
 body {
-    background-color: #ffffff;
-    font-family: retiro-std-24pt,sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    text-decoration: none;
+
 }
 
 a{
@@ -20,28 +16,41 @@ h1{
 }
 h2{
     color: #7f7c78;
-    font-family: lust-didone-fine,sans-serif;
-    font-weight: 100;
+    font-size: 1.5em;
+    font-family: lust,serif;
+    font-weight: 700;
     font-style: normal;
 }
 h3{
     color: #000000;
-    font-family: lust-didone-fine,sans-serif;
     font-size: 1.5em;
-    font-weight: 100;
+    font-family: lust,serif;
+    font-weight: 700;
     font-style: normal;
-    padding-top: 1.5em;
+    margin-bottom: 0em;
+    padding-bottom: 0em;
     
 }
 
-p, figcaption{
+p{
     color: #000000;
     font-family: freight-sans-pro,sans-serif;
     font-weight: 400;
     font-style: normal;
     text-decoration: none;
+    padding-bottom: 1.5em;
+    padding-top: 0em;
+    margin-top: .5em;
     
 }
+
+figcaption{
+    font-family: freight-sans-pro, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: .8em;
+}
+
 div.container {
     max-width: 40em;
     margin: auto;
@@ -57,6 +66,8 @@ figure {
 img {
     width: 100%;
     display: block;
+    margin-bottom: .75em;
+    margin-top: 2em;
 }
 
 ul {
@@ -67,18 +78,22 @@ ul {
 }
 
 nav ul li{
+    margin: 1rem;
     display: inline;
+    list-style-type: none;
     color: #000000;
     font-family: freight-sans-pro,sans-serif;
     font-weight: 400;
     font-size: 1.3em;
     font-style: normal;
-    text-decoration: none;
-    margin: 1em;
+    
 
 }
 
 nav ul li a{
     text-decoration: none;
     color: #000000;
+}
+nav ul li a:hover{
+    color: #f1edeb;
 }
