@@ -20,6 +20,7 @@ h2{
     font-family: lust,serif;
     font-weight: 700;
     font-style: normal;
+    padding-top: 0;
 }
 h3{
     color: #000000;
@@ -38,7 +39,7 @@ p{
     font-weight: 400;
     font-style: normal;
     text-decoration: none;
-    padding-bottom: 1.5em;
+    padding-bottom: 0em;
     padding-top: 0em;
     margin-top: .5em;
     
@@ -51,35 +52,18 @@ figcaption{
     font-size: .8em;
 }
 
-div.container {
-    max-width: 40em;
-    margin: auto;
-    text-decoration: none;
-    padding-left: 1em;
-    padding-right: 1em;
-}
-
-figure {
-    margin: 0;
-}
-
-img {
-    width: 100%;
-    display: block;
-    margin-bottom: .75em;
-    margin-top: 2em;
-}
 
 ul {
     list-style-type: none;
     padding: 0;
     background-color: #AC998A;
     padding: .5em;
+    display: block;
 }
 
 nav ul li{
     margin: 1rem;
-    display: inline;
+    display: inline-block;
     list-style-type: none;
     color: #000000;
     font-family: freight-sans-pro,sans-serif;
@@ -96,4 +80,94 @@ nav ul li a{
 }
 nav ul li a:hover{
     color: #f1edeb;
+}
+
+div.container {
+    max-width: 80em;
+    margin: 0 auto;
+}
+
+section{
+	max-width: 80em;
+}
+
+
+figure {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+}
+
+
+@media screen and (min-width: 60em){
+	
+	ul li{
+	display: inline;
+	margin-right: 1em;
+}
+
+	div.container{
+		display: grid;
+		grid-template-columns: 3fr 1fr;
+		grid-gap: 0 2em;
+	}
+
+	header{
+		grid-column: 1/3;
+	}
+
+	main{
+		grid-column: 1/2;
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		grid-gap: 0 1em;
+	}
+
+	section{
+		margin: 0;
+	}
+
+	section.mainstory{
+		grid-column: 1/3;
+		display: flex;
+		flex-direction: column;
+	}
+
+	section.mainstory figure{
+		flex: 1 0 18em;
+		display: flex;
+		flex-direction: column;
+	}
+
+	section.mainstory figure div{
+		flex: 1 0 18em;
+		background-image: url(whitetank.png);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+	}
+
+	section.mainstory figure div img{
+		height: 100%;
+		opacity: 0;
+	}
+
+	section.mainstory h3{
+		flex: 0 0 auto;
+		margin: 0;
+		padding-top: 1em;
+	}
+
+	section.mainstory p{
+		flex: 0 0 auto;
+		margin: 0;
+		padding-bottom: 2em;
+	}
+
+
+	aside{
+		grid-column: 2/3;
+	}
 }
